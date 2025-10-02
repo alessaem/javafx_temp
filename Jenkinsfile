@@ -24,7 +24,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/ADirin/javafx_temp.git'
+                git branch: 'master', url: 'https://github.com/alessaem/javafx_temp.git'
             }
         }
 
